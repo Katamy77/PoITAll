@@ -33,9 +33,10 @@ android:orientation="vertical">
                 <TextView
                     android:id="@+id/scoreSum"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:textAlignment="center"
-                    android:textSize="70sp" />
+                    android:textSize="60sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -199,9 +200,10 @@ android:orientation="vertical">
                     <TextView
                         android:id="@+id/mathClass"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
                         android:layout_weight="1"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                        android:textSize="17sp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -306,10 +308,11 @@ android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/engClass"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
                         android:layout_weight="1"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                        android:textSize="17sp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -414,10 +417,11 @@ android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/compClass"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
                         android:layout_weight="1"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                        android:textSize="17sp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -530,9 +534,10 @@ android:orientation="vertical">
                     <TextView
                         android:id="@+id/peClass"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </LinearLayout>
 
